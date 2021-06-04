@@ -1,0 +1,8 @@
+C:\Users\Windows 10\source\repos\Bacon cipher\bin\Debug\Bacon cipher.exe
+C:\Users\Windows 10\source\repos\Bacon cipher\bin\Debug\Bacon cipher.pdb
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon cipher.csprojAssemblyReference.cache
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon_cipher.Form1.resources
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon_cipher.Properties.Resources.resources
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon cipher.csproj.GenerateResource.cache
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon cipher.exe
+C:\Users\Windows 10\source\repos\Bacon cipher\obj\Debug\Bacon cipher.pdb
