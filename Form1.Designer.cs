@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.gBSource = new System.Windows.Forms.GroupBox();
-            this.rBText = new System.Windows.Forms.RadioButton();
             this.rBFile = new System.Windows.Forms.RadioButton();
+            this.rBText = new System.Windows.Forms.RadioButton();
             this.gBOperation = new System.Windows.Forms.GroupBox();
             this.rBD = new System.Windows.Forms.RadioButton();
             this.rBE = new System.Windows.Forms.RadioButton();
@@ -45,12 +45,23 @@
             // 
             this.gBSource.Controls.Add(this.rBFile);
             this.gBSource.Controls.Add(this.rBText);
-            this.gBSource.Location = new System.Drawing.Point(13, 13);
+            this.gBSource.Location = new System.Drawing.Point(12, 13);
             this.gBSource.Name = "gBSource";
             this.gBSource.Size = new System.Drawing.Size(69, 73);
             this.gBSource.TabIndex = 0;
             this.gBSource.TabStop = false;
-            this.gBSource.Text = "gBSource";
+            this.gBSource.Text = "Source";
+            // 
+            // rBFile
+            // 
+            this.rBFile.AutoSize = true;
+            this.rBFile.Location = new System.Drawing.Point(7, 43);
+            this.rBFile.Name = "rBFile";
+            this.rBFile.Size = new System.Drawing.Size(41, 17);
+            this.rBFile.TabIndex = 1;
+            this.rBFile.Text = "File";
+            this.rBFile.UseVisualStyleBackColor = true;
+            this.rBFile.CheckedChanged += new System.EventHandler(this.SelectSource);
             // 
             // rBText
             // 
@@ -64,17 +75,6 @@
             this.rBText.Text = "Text";
             this.rBText.UseVisualStyleBackColor = true;
             this.rBText.CheckedChanged += new System.EventHandler(this.SelectSource);
-            // 
-            // rBFile
-            // 
-            this.rBFile.AutoSize = true;
-            this.rBFile.Location = new System.Drawing.Point(7, 43);
-            this.rBFile.Name = "rBFile";
-            this.rBFile.Size = new System.Drawing.Size(41, 17);
-            this.rBFile.TabIndex = 1;
-            this.rBFile.Text = "File";
-            this.rBFile.UseVisualStyleBackColor = true;
-            this.rBFile.CheckedChanged += new System.EventHandler(this.SelectSource);
             // 
             // gBOperation
             // 
